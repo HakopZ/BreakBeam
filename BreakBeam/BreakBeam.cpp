@@ -32,7 +32,6 @@ int main()
     Mat mask{};
     Mat blur{};
     Mat canny{};
-
     videoCapture.open("http://192.168.1.121:1181/?action=stream");
 
     while (true)
